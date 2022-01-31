@@ -1,6 +1,6 @@
 # HepsiBurada.MarsRoverCase
 
-Net 6.0, using ONION architecture and CQRS, mars rover problem has been solved for Hepsiburada.
+Net 6.0, using ONION architecture, CQRS, Abstract Factory and State Design, mars rover problem has been solved for Hepsiburada.
 
 
 ## PROBLEM :
