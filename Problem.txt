@@ -1,0 +1,30 @@
+﻿MarsRover Problem Refine 
+
+Toplam Efor : 
+ - Analiz = 8,
+ - Bussines Code = 5, 
+ - Infrastructure = 5
+
+1. Koordinat düzlemini düşün.(Kare)
+2. Bu alan sadece (x y) koordinatlarından oluşuyor (sol alt baz alınmıyor).
+3. Dört pusula noktası var (S(güney), N(Kuzey), E(Doğu), W(Batı))
+4. Üç adet hareket var L, R, M 
+ 4.1. M=> 1 adım  ileri
+ 4.2. R=> sağa dön PUSULADA !!!
+ 4.3. L=> sola dön PUSULADA !!!
+
+Business : 
+	Her bir gezgin için en az 3 girdi alınacak: 
+		-Birinci girdi örneğin 5 5 alanın büyüklüğü için alınacak.
+		-İkinci girdi gezginin konumu için (1 2 N)
+		-Üçüncü girdi gezginin gezeceği yerler için (LMLMLMLMM)
+
+
+Solution: 
+	Datanın doğru geldiğini kabul et.
+	Girdileri boşlukla ayır, gezginin hareketlerini ilgili alanın içerisinde mi değil mi kontrol et her şey yolunda ise
+	gezginin ilk konumuna göre yönünü belirle gerekli kontrolleri yap ve ilerlet.
+
+
+UYARI!!! : L R hareket eylemi değil, sadece hareket edeceği yönü pusulaya göre setlemene yardımcı olacak...
+  

@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41998887-81DB-4F83-84E1-01E62D9638F0}"
+	ProjectSection(SolutionItems) = preProject
+		Problem.txt = Problem.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E17D3074-B8AB-48BD-B681-129F86F444E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A2540070-3619-4648-AF0C-8F7BAA012A6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{35AF6D4A-19C2-4C7D-BA5E-B1A6EB761F33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6E656965-30C9-4FDC-965A-F1B8525DE0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.MarsRover.Application", "src\Core\HepsiBurada.MarsRover.Application\HepsiBurada.MarsRover.Application.csproj", "{8FA65572-48AE-4287-BA08-4D8374E697D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.MarsRover.Domain", "src\Core\HepsiBurada.MarsRover.Domain\HepsiBurada.MarsRover.Domain.csproj", "{AAE05B89-F0C9-493C-965D-8793A15E756D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.MarsRover.Persistance", "src\Infrastructure\HepsiBurada.MarsRover.Persistance\HepsiBurada.MarsRover.Persistance.csproj", "{22CDE0F3-5268-4C11-B209-868A90D5307E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.MarsRover.ConsoleApp", "src\Presentation\HepsiBurada.MarsRover.ConsoleApp\HepsiBurada.MarsRover.ConsoleApp.csproj", "{42B1ADEF-273C-4AB0-A12C-EEEC5815C54D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{411065F5-E52A-4D73-8B9E-9F5D747917AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.MarsRover.Test", "src\Test\HepsiBurada.MarsRover.Test\HepsiBurada.MarsRover.Test.csproj", "{E4C1AD12-E92C-4E95-B0C0-1EBB8713BFB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA65572-48AE-4287-BA08-4D8374E697D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA65572-48AE-4287-BA08-4D8374E697D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA65572-48AE-4287-BA08-4D8374E697D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA65572-48AE-4287-BA08-4D8374E697D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE05B89-F0C9-493C-965D-8793A15E756D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE05B89-F0C9-493C-965D-8793A15E756D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE05B89-F0C9-493C-965D-8793A15E756D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE05B89-F0C9-493C-965D-8793A15E756D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CDE0F3-5268-4C11-B209-868A90D5307E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CDE0F3-5268-4C11-B209-868A90D5307E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CDE0F3-5268-4C11-B209-868A90D5307E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CDE0F3-5268-4C11-B209-868A90D5307E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B1ADEF-273C-4AB0-A12C-EEEC5815C54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B1ADEF-273C-4AB0-A12C-EEEC5815C54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B1ADEF-273C-4AB0-A12C-EEEC5815C54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B1ADEF-273C-4AB0-A12C-EEEC5815C54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C1AD12-E92C-4E95-B0C0-1EBB8713BFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C1AD12-E92C-4E95-B0C0-1EBB8713BFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C1AD12-E92C-4E95-B0C0-1EBB8713BFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C1AD12-E92C-4E95-B0C0-1EBB8713BFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2540070-3619-4648-AF0C-8F7BAA012A6E} = {E17D3074-B8AB-48BD-B681-129F86F444E8}
+		{35AF6D4A-19C2-4C7D-BA5E-B1A6EB761F33} = {E17D3074-B8AB-48BD-B681-129F86F444E8}
+		{6E656965-30C9-4FDC-965A-F1B8525DE0CA} = {E17D3074-B8AB-48BD-B681-129F86F444E8}
+		{8FA65572-48AE-4287-BA08-4D8374E697D6} = {A2540070-3619-4648-AF0C-8F7BAA012A6E}
+		{AAE05B89-F0C9-493C-965D-8793A15E756D} = {A2540070-3619-4648-AF0C-8F7BAA012A6E}
+		{22CDE0F3-5268-4C11-B209-868A90D5307E} = {35AF6D4A-19C2-4C7D-BA5E-B1A6EB761F33}
+		{42B1ADEF-273C-4AB0-A12C-EEEC5815C54D} = {6E656965-30C9-4FDC-965A-F1B8525DE0CA}
+		{411065F5-E52A-4D73-8B9E-9F5D747917AB} = {E17D3074-B8AB-48BD-B681-129F86F444E8}
+		{E4C1AD12-E92C-4E95-B0C0-1EBB8713BFB7} = {411065F5-E52A-4D73-8B9E-9F5D747917AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DD16681-816D-43D5-A9EC-C139785E440F}
+	EndGlobalSection
+EndGlobal
