@@ -1,4 +1,5 @@
 ﻿using HepsiBurada.MarsRover.Application.Abstraction.States;
+using HepsiBurada.MarsRover.Domain.ConstValues;
 using HepsiBurada.MarsRover.Domain.Domain;
 using System;
 using System.Collections.Generic;
@@ -12,24 +13,20 @@ namespace HepsiBurada.MarsRover.Application.Features.States
     {
         public override void Handle(Traveler traveler)
         {
-            if (traveler.Direction == "N")
+            switch (traveler.Direction)
             {
-                //gezdiziDirectionState = "W";
-                traveler.Direction = "W";
-            }
-            else if (traveler.Direction == "W")
-            {
-                traveler.Direction = "S";
-            }
-            else if (traveler.Direction == "S")
-            {
-                //gezdiziDirectionState = "E";
-                traveler.Direction = "E";
-            }
-            else
-            {
-                //gezdiziDirectionState = "N";
-                traveler.Direction = "N";
+                case DirectionValue.North:
+                    traveler.Direction = DirectionValue.West;
+                    break;
+                case DirectionValue.West:
+                    traveler.Direction = DirectionValue.South;
+                    break;
+                case DirectionValue.South:
+                    traveler.Direction = DirectionValue.East;
+                    break;
+                default:
+                    traveler.Direction = DirectionValue.North;
+                    break;
             }
         }
     }
